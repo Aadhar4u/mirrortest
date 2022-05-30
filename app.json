@@ -29,7 +29,7 @@
       },
       "DOWNLOAD_DIR": {
         "description": "The path to the local folder where the downloads should be downloaded to.",
-        "value": "/app/downloads",
+        "value": "/usr/src/app/downloads",
         "required": false
       },
       "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
@@ -45,14 +45,14 @@
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
         "value": "-1",
-        "required": false
+        "required": true
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
         "value": "",
         "required": false
       },
-      "USE_SERVICE_ACCOUNTS": {
+      "INCOMPLETE_TASK_NOTIFIER": {
         "description": "Whether to use service accounts or not. For this to work see 'Using service accounts' section below.",
         "value": "",
         "required": false
@@ -72,28 +72,53 @@
         "value": "",
         "required": true
       },
-      "TELEGRAPH_TOKEN": {
+      "LEECH_LOG_ALT": {
         "description": "Open this link to generate telegraph token ==> https://telegraph-token.sonywegas.repl.run",
         "value": "",
         "required": false
       },
-      "MEGA_API_KEY": {
-        "description": "To authenticate Mega.",
+      "LEECH_LOG": {
+        "description": "id",
         "value": "",
         "required": false
       },
-      "MEGA_EMAIL_ID": {
+      "MIRROR_LOGS": {
         "description": "Mega Email.",
         "value": "",
         "required": false
       },
-      "MEGA_PASSWORD": {
+      "LINK_LOGS": {
         "description": "Mega Password.",
         "value": "",
         "required": false
       },
-      "USER_SESSION_STRING": {
-        "description": "Open this link to generate session string ==> https://string-session.sonywegas.repl.run",
+      "CHANNEL_USERNAME": {
+        "description": " force suscriber",
+        "value": "",
+        "required": true
+      },
+      "LEECH_ENABLED": {
+        "description": " force suscriber",
+        "value": "",
+        "required": true
+      },
+      "IMAGE_LEECH": {
+        "description": " force suscriber",
+        "value": "",
+        "required": true
+      },
+      "BOT_PM": {
+        "description": " force suscriber",
+        "value": "",
+        "required": true
+      },
+      "FSUB": {
+        "description": " force suscriber",
+        "value": "",
+        "required": true
+      },
+      "TOKEN_PICKLE_URL": {
+        "description": " force suscriber",
         "value": "",
         "required": true
       }
