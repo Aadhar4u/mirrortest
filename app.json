@@ -121,6 +121,11 @@
         "description": " force suscriber",
         "value": "",
         "required": true
+      },
+      "BASE_URL_OF_BOT": {
+        "description": " force suscriber",
+        "value": "https://thisnew.herokuapp.com",
+        "required": true
       }
     },
     "addons": [
